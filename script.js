@@ -7,7 +7,7 @@ let pattern = {
     name: /^[a-z ,.'-]+$/i,
     age: /^\S[0-9]{0,3}$/g,
     email: /^[A-Z0-9._%+-]+@[A-Z0-9-]+.+.[A-Z]{2,4}$/i,
-    aboutYou: /^(?:[A-Za-z0-9+/]{4})*(?:[A-Za-z0-9+/]{2}==|[A-Za-z0-9+/]{3}=)?$/, 
+    aboutYou: /^[a-z ,.'-]+$/,
     html: /^[a-z ,.'-]+$/,
     css:    /^[a-z ,.'-]+$/,
     surname: /^[a-z ,.'-]+$/i,
