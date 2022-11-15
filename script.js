@@ -5,7 +5,7 @@ let form = document.forms.reg
 
 let pattern = {
     name: /^[a-z ,.'-]+$/i,
-    age: /\s[0-1]{i}[0-9]{0,2}$/g,
+    age: /^100|[1-9]?\d$/,
     email: /^[A-Z0-9._%+-]+@[A-Z0-9-]+.+.[A-Z]{2,4}$/i,
     aboutYou: /^[A-z ,.'-]+$/, 
     html: /^[A-z ,.'-]+$/,
