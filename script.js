@@ -5,12 +5,12 @@ let form = document.forms.reg
 
 let pattern = {
     name: /^[a-z ,.'-]+$/i,
-    age: /^\S[0-9]{0,3}$/g,
+    age: /\s[0-1]{i}[0-9]{0,2}$/g,
     email: /^[A-Z0-9._%+-]+@[A-Z0-9-]+.+.[A-Z]{2,4}$/i,
-    aboutYou: /^[a-z ,.'-]+$/,
-    html: /^[a-z ,.'-]+$/,
+    aboutYou: /^[A-z ,.'-]+$/, 
+    html: /^[A-z ,.'-]+$/,
     css:    /^[a-z ,.'-]+$/,
-    surname: /^[a-z ,.'-]+$/i,
+    favouriteCar: /^[a-z ,.'-]+$/i,
     password: /^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=])(?=\S+$).{8,}$/,
     phone: /^998[012345789][0-9]{8}$/g,
 
@@ -85,6 +85,15 @@ btn.style.backgroundColor = "black"
 // });
 // });
 }
+
+
+
+
+
+
+
+
+
 
 
 
